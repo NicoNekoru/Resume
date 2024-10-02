@@ -210,7 +210,7 @@ export function App() {
 		<div class="activity">
 			<p class="title">Varsity Speech and Debate (Policy)</p>
 			<ul>
-				<li>Researcher and debater for Interlake Speech and Debate?s policy team</li>
+				<li>Researcher and debater for Interlake Speech and Debate's policy team</li>
 				<li>Research brought multiple teams to the national circuit</li>
 			</ul>
 		</div>

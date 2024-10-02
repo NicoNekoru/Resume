@@ -2,7 +2,14 @@ body {
   margin: 1em;
   display: flex;
   place-items: center;
-  background-color: #FFFFFF;
+  background-color: #EEEEEE;
+}
+
+#page-wrapper {
+	max-width: 8.5in;
+	background-color: #FFFFFF;
+	padding: 1in;
+	margin: 0 auto;
 }
 
 @media print {
