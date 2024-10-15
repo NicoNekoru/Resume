@@ -1,15 +1,15 @@
-body {
-  margin: 1em;
-  display: flex;
-  place-items: center;
-  background-color: #EEEEEE;
+html {
+	background-color: #EEEEEE;
+	margin: 1em;
 }
 
-#page-wrapper {
-	max-width: 8.5in;
-	background-color: #FFFFFF;
-	padding: 1in;
+body {
 	margin: 0 auto;
+	padding: 0.75in;
+	max-width: 7in;
+	display: flex;
+	place-items: center;
+	background-color: #FFFFFF;
 }
 
 @media print {
@@ -18,14 +18,20 @@ body {
 	}
 	
 	html {
+		visibility: hidden;
 		background-color: #FFFFFF;
 	}
 
-	* { 
+	body {
+		padding: 0;
+		margin: 0;
+	}
+	
+	body, body * { 
 		color-adjust: exact !important;  
 		-webkit-print-color-adjust: exact !important; 
 		print-color-adjust: exact !important;
-	  visibility: hidden;
+		visibility: hidden;
 	}
 
 	#app, #app * {

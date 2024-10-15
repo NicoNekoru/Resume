@@ -3,9 +3,6 @@
 
 #app {
   width: 100%;
-  max-width: 7in;
-  min-height: 11in;
-  margin: 0 auto 2ex auto;
   /* padding: 0.75in; */
   background-color: #FFF;
   color: #000;
@@ -14,6 +11,7 @@
 * {
   font-family: 'Iosevka Web';
   letter-spacing: 0.05em;
+  line-height: 150%;
 }
 
 h1, h2, h3, h4 {
@@ -23,26 +21,34 @@ h1, h2, h3, h4 {
 #heading {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
-  margin: 0
+  margin: 0;
+  margin-bottom: 0.5em;
 }
 
 #name {
   font-family: Jost;
   font-weight: 700;
-  font-size: 19pt;
+  font-size: 24pt;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #socials {
   display: flex;
   align-items: center;
   font-weight: 300;
-  font-size: 10pt;
+  font-size: 12pt;
+}
+
+#blurb {
+  margin-bottom: 1em;
 }
 
 p {
   font-family: 'Iosevka Web';
-  font-size: 11pt;
+  font-size: 10pt;
   font-weight: 350;
   margin-top: 0;
   margin-bottom: 0.5em;
@@ -51,7 +57,7 @@ p {
 h2 { 
   font-family: Jost;
   font-weight: 600;
-  font-size: 15pt;
+  font-size: 14pt;
   margin-top: 0.5em;
   margin-bottom: 0.1em;
 }
@@ -59,7 +65,7 @@ h2 {
 h4 {
   font-family: 'Iosevka Web';
   font-weight: 600;
-  font-size: 13pt;
+  font-size: 12pt;
   margin-top: 0.1em;
   margin-bottom: 0.1em;
 }
@@ -74,6 +80,7 @@ h4 {
 
 .title {
   font-weight: 600;
+  font-size: 11pt;
 }
 
 .experience * {
@@ -115,13 +122,16 @@ h4 {
   margin-top: 0.5em;
 }
 
+.activity {
+  margin: 0;
+}
 .activity p {
   margin: 0;
 }
 
 ul {
   list-style: none;
-  margin-top: 0.25em;
+  margin-top: 0;
   margin-left: 0;
   padding-left: 0;
 }
@@ -130,12 +140,13 @@ li {
   padding-left: 2em;
   text-indent: -1em;
   font-family: 'Iosevka Web';
-  font-size: 9pt;
+  font-size: 10pt;
+  line-height: normal;
 }
 
 li:before {
   content: "-";
   padding-right: 5px;
   font-family: 'Iosevka Web';
-  font-size: 9pt;
+  font-size: 12pt;
 }

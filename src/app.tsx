@@ -97,7 +97,7 @@ export function App() {
 				<p class="title">University of Washington: Seattle</p>
 				<p class="date">(2024-Present)</p>
 			</div>
-			<p class="sch-desc">Currently in CS major, intending Applied Computational Mathematical Sciences.</p>
+			<p class="sch-desc">Currently in CS major, intending Applied Computational Mathematical Sciences. On track to graduate in June 2026.</p>
 		</div>
 
 		<h2 id="skills">Skills</h2>
@@ -116,51 +116,52 @@ export function App() {
 				<h4>Papercut</h4>
 				<p>
 					Academic search engine aiming to streamline your research. 
-					Runner-up in HackPNW Spring 2024 hackathon
+					Runner-up in HackPNW Spring 2024 hackathon.
 				</p>
 			</div>
-
 			<div class="project">
 				<h4>Obsidian Sheets</h4>
 				<p>
 					Plugin for the Obsidian notetaking platform that adds more 
-					functionality to tables. 25k+ downloads
+					functionality to tables. 50k+ downloads.
 				</p>
 			</div>
-
+			<div class="project">
+				<h4>AMATH 481/581 Code</h4>
+				<p>
+					Code for the AMATH 481/581 Scientific Computing class at the
+					University of Washington. Data-driven modelling.
+				</p>
+			</div>
+			<div class="project">
+				<h4>LEAN Algorithms</h4>
+				<p>
+					All of my basic algorithm implementations in QuantConnect's 
+					LEAN engine.
+				</p>
+			</div>
 			<div class="project">
 				<h4>Challonge.js</h4>
 				<p>
 					JS API wrapper for the Challonge tournament organizing platform.
 				</p>
 			</div>
-
 			<div class="project">
 				<h4>IFT</h4>
 				<p>
-					Collection of scripts and Discord bots for the Infinite Finesse 
-					Tetris tournaments
+					Management apps and scripts for 1000+ member organization IFT.
 				</p>
 			</div>
-
 			<div class="project">
 				<h4>Obsidian VSC Shortcuts</h4>
 				<p>
-					Plugin for the Obsidian notetaking platform that adds keyboard shortcuts
+					Plugin for the Obsidian notetaking platform that adds keyboard shortcuts.
 				</p>
 			</div>
-
 			<div class="project">
 				<h4>Arxiv.js</h4>
 				<p>
 					JS API wrapper for the Arxiv search API.
-				</p>
-			</div>
-
-			<div class="project">
-				<h4>Get-Member Extension</h4>
-				<p>
-					PowerShell script that extends the functionality of the Get-Member cmdlet
 				</p>
 			</div>
 			<div class="project">
@@ -175,27 +176,23 @@ export function App() {
 			</div>
 			<div class="project">
 				<h4>StackOverflow</h4>
-				<p>3000+ reputation on the StackOverflow online forum</p>
+				<p>3000+ reputation on the StackOverflow online forum.</p>
 			</div>
 			<div class="project">
-				<h4>Get-LocalInfo</h4>
-				<p>Powershell script that reveals information about the local machine</p>
-			</div>
-			<div class="project">
-				<h4>Find-TagQuestions</h4>
-				<p>PowerShell app which finds new questions on StackOverflow</p>
+				<h4>Powershell scripts</h4>
+				<p>Various powershell scripts for convenience of tasks.</p>
 			</div>
 			<div class="project">
 				<h4>Stanford SQL</h4>
-				<p>Online edX course on relational databases</p>
+				<p>Certification for course on relational databases.</p>
 			</div>
 			<div class="project">
 				<h4>Microsoft Java</h4>
-				<p>Online edX course on Java</p>
+				<p>Certification for course on Java.</p>
 			</div>
 			<div class="project">
 				<h4>Harvard CS50 Web</h4>
-				<p>Online edX course on web development</p>
+				<p>Certification for course on web development.</p>
 			</div>
 		</div>
 
