@@ -97,7 +97,10 @@ export function App() {
 				<p class="title">University of Washington: Seattle</p>
 				<p class="date">(2024-Present)</p>
 			</div>
-			<p class="sch-desc">Currently in CS major, intending Applied Computational Mathematical Sciences. On track to graduate in June 2026.</p>
+			<p class="sch-desc">
+			Currently in CS major. Intending double major in Applied Computational Mathematical 
+			Sciences and Informatics. On track to graduate in June 2026.
+			</p>
 		</div>
 
 		<h2 id="skills">Skills</h2>
