@@ -55,9 +55,9 @@ export function App() {
 			</div>
 			<p class="exp-meta">25:2 Solutions, Inc. – Pocatello, ID</p>
 			<p class="exp-desc">
-				Collaborated with technical and non-technical teams on writing software for 
-				automating field workers’ workflows. Also developed on SoCs.
-			</p>
+				Worked on a React and Django based platform and cross bred various grains 
+				in a lab.
+		</p>
 		</div>
 
 		<div class="experience">
